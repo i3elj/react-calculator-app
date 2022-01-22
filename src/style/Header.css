@@ -1,0 +1,9 @@
+#header {
+    display: grid;
+    grid-template-columns: 100px 100px auto;
+    list-style-type: none;
+}
+#header > div {
+    border: 1px solid blue;
+    border-radius: 20px;
+}
