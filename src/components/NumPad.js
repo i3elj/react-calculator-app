@@ -1,25 +1,25 @@
 import "../style/NumPad.css";
-import { addValue } from "../controllers/addValue.js";
+import { getValue } from "../controllers/inputHandler.js";
 
 const NumPad = () => {
     return (
         <ul id="numpad">
-            <button onClick={addValue(this)}>7</button>
-            <button onClick={addValue(this)}>8</button>
-            <button onClick={addValue(this)}>9</button>
-            <button onClick={addValue(this)}>/</button>
-            <button onClick={addValue(this)}>4</button>
-            <button onClick={addValue(this)}>5</button>
-            <button onClick={addValue(this)}>6</button>
-            <button onClick={addValue(this)}>*</button>
-            <button onClick={addValue(this)}>1</button>
-            <button onClick={addValue(this)}>2</button>
-            <button onClick={addValue(this)}>3</button>
-            <button onClick={addValue(this)}>-</button>
-            <button onClick={addValue(this)}>,</button>
-            <button onClick={addValue(this)}>0</button>
-            <button onClick={addValue(this)}>=</button>
-            <button onClick={addValue(this)}>+</button>
+            <button onClick={() => getValue("7")}>7</button>
+            <button onClick={() => getValue("8")}>8</button>
+            <button onClick={() => getValue("9")}>9</button>
+            <button onClick={() => getValue("/")}>/</button>
+            <button onClick={() => getValue("4")}>4</button>
+            <button onClick={() => getValue("5")}>5</button>
+            <button onClick={() => getValue("6")}>6</button>
+            <button onClick={() => getValue("*")}>*</button>
+            <button onClick={() => getValue("1")}>1</button>
+            <button onClick={() => getValue("2")}>2</button>
+            <button onClick={() => getValue("3")}>3</button>
+            <button onClick={() => getValue("-")}>-</button>
+            <button onClick={() => getValue(",")}>,</button>
+            <button onClick={() => getValue("0")}>0</button>
+            <button onClick={() => getValue("=")}>=</button>
+            <button onClick={() => getValue("+")}>+</button>
         </ul>
     );
 };
