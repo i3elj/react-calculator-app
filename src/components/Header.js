@@ -3,9 +3,9 @@ import "../style/Header.css";
 const Header = () => {
     return (
         <ul id="header">
-            <li>AC</li>
-            <li>C</li>
-            <div id="header-div"></div>
+            <button>AC</button>
+            <button>C</button>
+            <input id="header-div"></input>
         </ul>
     );
 };

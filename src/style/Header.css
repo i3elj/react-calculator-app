@@ -1,7 +1,11 @@
 #header {
     display: grid;
-    grid-template-columns: 100px 100px auto;
+    grid-template-columns: 4vh 4vh auto;
+    grid-template-rows: 4vh 4vh 4vh;
     list-style-type: none;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+    height: 4vh;
 }
 #header > div {
     border: 1px solid blue;
