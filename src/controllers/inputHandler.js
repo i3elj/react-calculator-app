@@ -6,7 +6,12 @@ function cleanInput() {
     document.getElementById('header-input').value = "";
 }
 
+function evaluateExpression() {
+    let expression = document.getElementById('header-input').value;
+}
+
 module.exports = {
     getValue,
-    cleanInput
+    cleanInput,
+    evaluateExpression
 };
