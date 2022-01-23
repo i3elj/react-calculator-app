@@ -1,11 +1,12 @@
 import "../style/Header.css";
+import { cleanInput } from '../controllers/inputHandler'
 
 const Header = () => {
     return (
         <ul id="header">
-            <button>AC</button>
-            <button>C</button>
-            <input id="header-div"></input>
+            <button onClick={() => cleanInput()}>AC</button>
+            <button onClick={() => cleanInput()}>C</button>
+            <input id="header-input"></input>
         </ul>
     );
 };
