@@ -1,6 +1,6 @@
 # React Calculator App
 
--   some list
+-   [this is a test of a link](notion.so)
     -   sub-item 1
     -   sub-item 2
         -   sub-sub-item 1
