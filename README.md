@@ -2,7 +2,7 @@
 
 ### Summary
 
--   ## [Running the application](#running-the-application)
+-   [Running the application](#running-the-application)
 
 ## Running the application
 
