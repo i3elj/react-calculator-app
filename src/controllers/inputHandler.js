@@ -1,3 +1,5 @@
+const math = require("mathjs");
+
 function getValue(val) {
     document.getElementById("header-input").value += val;
 }
@@ -7,7 +9,7 @@ function cleanInput() {
 }
 
 function evaluateExpression() {
-    let expression = document.getElementById('header-input').value;
+   document.getElementById('header-input').value = math.evaluate(document.getElementById('header-input').value);
 }
 
 module.exports = {
