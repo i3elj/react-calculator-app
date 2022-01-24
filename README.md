@@ -1,9 +1,11 @@
 # React Calculator App
 
--   [this is a test of a link](notion.so)
+-   [this is a test of a link](#sub-title)
     -   sub-item 1
     -   sub-item 2
         -   sub-sub-item 1
+
+## Sub title
 
 # Getting Started with Create React App
 
