@@ -6,4 +6,4 @@
 
 ## Running the application
 
-You can use `npm start web` to start the application on a web page. The default port is _3000_.
+You can use `npm start web` to start the application on a web page. The default port is **3000**.
