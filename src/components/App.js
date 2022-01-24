@@ -1,6 +1,7 @@
-import "../style/App.css";
+import React from "react";
 import NumPad from "./NumPad";
 import Header from "./Header";
+import "../style/App.css";
 
 const App = () => {
     return (

@@ -1,5 +1,6 @@
-import "../style/NumPad.css";
+import React from "react";
 import { getValue } from "../controllers/inputHandler.js";
+import "../style/NumPad.css";
 
 const NumPad = () => {
     return (

@@ -1,5 +1,6 @@
+import React from "react";
+import { cleanInput } from "../controllers/inputHandler";
 import "../style/Header.css";
-import { cleanInput } from '../controllers/inputHandler'
 
 const Header = () => {
     return (
