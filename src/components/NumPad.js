@@ -1,5 +1,5 @@
 import React from "react";
-import { getValue } from "../controllers/inputHandler.js";
+import { getValue, evaluateExpression } from "../controllers/inputHandler.js";
 import "../style/NumPad.css";
 
 const NumPad = () => {
@@ -19,7 +19,7 @@ const NumPad = () => {
             <button onClick={() => getValue("-")}>-</button>
             <button onClick={() => getValue(",")}>,</button>
             <button onClick={() => getValue("0")}>0</button>
-            <button onClick={() => getValue("=")}>=</button>
+            <button onClick={() => evaluateExpression()}> = </button>
             <button onClick={() => getValue("+")}>+</button>
         </ul>
     );
