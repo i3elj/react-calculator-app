@@ -1,5 +1,5 @@
 import React from "react";
-import { cleanInput } from "../controllers/inputHandler";
+import { cleanInput } from '../controllers/inputHandler';
 import "../style/Header.css";
 
 const Header = () => {
