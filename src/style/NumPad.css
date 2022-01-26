@@ -1,7 +1,7 @@
 #numpad {
-  display: grid;
-  grid-template-rows: 4vh 4vh 4vh 4vh;
-  grid-template-columns: 8vh 8vh 8vh 8vh;
-  grid-gap: 5px;
-  list-style-type: none;
+    display: grid;
+    grid-template-rows: 2rem 2rem 2rem 2rem;
+    grid-template-columns: 4rem 4rem 4rem 4rem;
+    grid-gap: 5px;
+    list-style-type: none;
 }
