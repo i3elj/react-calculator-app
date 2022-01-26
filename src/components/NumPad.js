@@ -19,7 +19,9 @@ const NumPad = () => {
             <button onClick={() => getValue("-")}>-</button>
             <button onClick={() => getValue(",")}>,</button>
             <button onClick={() => getValue("0")}>0</button>
-            <button onClick={() => evaluateExpression()}> = </button>
+            <button id="equal_symb" onClick={() => evaluateExpression()}>
+                =
+            </button>
             <button onClick={() => getValue("+")}>+</button>
         </ul>
     );
