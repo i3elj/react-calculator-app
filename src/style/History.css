@@ -1,0 +1,44 @@
+#history {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    /*--------------------*/
+    color: black;
+    border-top: 0.5px solid #34383f;
+    border-left: 0.5px solid #34383f;
+    border-right: 0.5px solid #34383f;
+    border-bottom: 1px solid #c0c0c02b;
+    border-radius: 15px;
+    background-color: #282d35;
+    /*--------------------*/
+    width: 352px;
+    height: 227px;
+    margin: 0px;
+    position: absolute;
+    top: 17%;
+    overflow-y: auto;
+}
+
+.expression {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /*--------------------*/
+    width: 100%;
+}
+.expression > button {
+    padding: 1px 0.5rem;
+    /*--------------------*/
+    border: none;
+}
+.expression > button:hover {
+    color: white;
+    border: none;
+}
+.expression > p {
+    color: #484d55;
+    padding: 0 0 0.5rem 0.5rem;
+    font-size: 21px;
+}
