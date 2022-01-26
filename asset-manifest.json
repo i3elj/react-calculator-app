@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-calculator-app/static/css/main.fed09b8d.chunk.css",
-    "main.js": "/react-calculator-app/static/js/main.6879c2a1.chunk.js",
-    "main.js.map": "/react-calculator-app/static/js/main.6879c2a1.chunk.js.map",
+    "main.css": "/react-calculator-app/static/css/main.841926eb.chunk.css",
+    "main.js": "/react-calculator-app/static/js/main.15197d9b.chunk.js",
+    "main.js.map": "/react-calculator-app/static/js/main.15197d9b.chunk.js.map",
     "runtime~main.js": "/react-calculator-app/static/js/runtime~main.81ce0e12.js",
     "runtime~main.js.map": "/react-calculator-app/static/js/runtime~main.81ce0e12.js.map",
     "static/js/2.f85e57fd.chunk.js": "/react-calculator-app/static/js/2.f85e57fd.chunk.js",
     "static/js/2.f85e57fd.chunk.js.map": "/react-calculator-app/static/js/2.f85e57fd.chunk.js.map",
     "index.html": "/react-calculator-app/index.html",
-    "precache-manifest.97f37ca1263ee065766bb5cd7eaf4771.js": "/react-calculator-app/precache-manifest.97f37ca1263ee065766bb5cd7eaf4771.js",
+    "precache-manifest.59adb3d3dbf3e17abf76b57db46342da.js": "/react-calculator-app/precache-manifest.59adb3d3dbf3e17abf76b57db46342da.js",
     "service-worker.js": "/react-calculator-app/service-worker.js",
-    "static/css/main.fed09b8d.chunk.css.map": "/react-calculator-app/static/css/main.fed09b8d.chunk.css.map"
+    "static/css/main.841926eb.chunk.css.map": "/react-calculator-app/static/css/main.841926eb.chunk.css.map"
   }
 }
