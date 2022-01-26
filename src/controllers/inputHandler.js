@@ -8,6 +8,11 @@ function cleanInput() {
     document.getElementById("header-input").value = "";
 }
 
+function cleanHistory() {
+    document.getElementById("history").innerHTML = "";
+    cleanInput();
+}
+
 function putInHistory(inp, res) {
     let div = document.createElement("div");
     div.className = "expression";
@@ -33,5 +38,6 @@ function evaluateExpression() {
 module.exports = {
     getValue,
     cleanInput,
+    cleanHistory,
     evaluateExpression,
 };
