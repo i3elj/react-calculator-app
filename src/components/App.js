@@ -5,15 +5,15 @@ import History from "./History";
 import "../style/App.css";
 
 const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <History />
-        <Header />
-        <NumPad />
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <History />
+                <Header />
+                <NumPad />
+            </header>
+        </div>
+    );
 };
 
 export default App;
